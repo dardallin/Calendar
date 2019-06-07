@@ -1,27 +1,22 @@
-.article-teaser {
-    background: white;
-    border: 1px solid gray;
-    width: 350px;
-    padding-bottom: 20px;
+.title-page {
     font-family: sans-serif;
+    padding: 15px;
+    height: 250px;
+    width: 300px;
 }
 
-.article-teaser .image {
-    width: 100%;
+.title-page .image {
+    width: 35%;
+    height: 35%;
 }
 
-.title,
-.description,
-.linkReadMore {
-    margin: 10px;
-}
+.title-page .title3 {
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+    }
 
-.article-teaser .title,
-.article-teaser .linkReadMore {
-    color: #007BFF;
-}
-
-.article-teaser .title {
-    font-weight: normal;
-    text-decoration: none;
+.title-page .title2 {
+   margin-bottom: 5px;
+    font-size: 20px;
 }
