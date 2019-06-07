@@ -1,7 +1,27 @@
 .article-teaser {
-    background-color: lightskyblue;
+    background: white;
+    border: 1px solid gray;
+    width: 350px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
 }
 
-div {
+.article-teaser .image {
+    width: 100%;
+}
 
+.title,
+.description,
+.linkReadMore {
+    margin: 10px;
+}
+
+.article-teaser .title,
+.article-teaser .linkReadMore {
+    color: #007BFF;
+}
+
+.article-teaser .title {
+    font-weight: normal;
+    text-decoration: none;
 }
