@@ -1,9 +1,21 @@
-body {
-  background: aquamarine;
+.site-name {
+  font-family: sans-serif;
+  color: #285B5F;
+}
+.site-name .title {
+  font-size: 33px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-body {
-  border: 2px solid black;
+.main-button {
+  background: #D81E5D;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #FFE6DE;
+  padding: 5px 11px;
+  border-radius: 13px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
