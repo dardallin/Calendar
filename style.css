@@ -1,3 +1,7 @@
+.header-region {
+  background: #FEF0D5;
+}
+
 .site-name {
   font-family: sans-serif;
   color: #285B5F;
@@ -22,6 +26,10 @@
   border-radius: 13px;
   font-size: 14px;
   font-weight: bold;
+}
+
+.site-logo .image {
+  width: 85px;
 }
 
 /*# sourceMappingURL=style.css.map */
