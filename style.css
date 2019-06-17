@@ -1,5 +1,14 @@
 .header-region {
   background: #FEF0D5;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.header-region .site-name {
+  margin-left: 20px;
+}
+.header-region .share-calendar {
+  margin-left: auto;
 }
 
 .site-name {
