@@ -1,5 +1,11 @@
+$font-header: 'Roboto Condensed', sans-serif;
+
+$color-yellow: #FEF0D5;
+$color-green: #285B5F;
+$color-red: #D81E5D;
+
 .header-region {
-  background: #FEF0D5;
+  background: $color-yellow;
   display: flex;
   align-items: center;
   padding: 5px 10px;
@@ -18,11 +24,11 @@
 
 .site-name {
   font-family: sans-serif;
-  color: #285B5F;
+  color: $color-green;
 
   .title {
     font-size: 32px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $font-header;
     font-weight: bold;
     margin: 0 0 5px 0;
   }
@@ -34,10 +40,10 @@
 }
 
 .main-button {
-  background: #D81E5D;
+  background: $color-red;
   font-family: sans-serif;
   text-decoration: none;
-  color: #FFE6DE;
+  color: $color-yellow;
   padding: 5px 11px;
   border-radius: 13px;
   font-size: 14px;
