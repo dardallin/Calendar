@@ -4,6 +4,7 @@ $color-yellow: #FEF0D5;
 $color-green: #285B5F;
 $color-red: #D81E5D;
 $color-grey: #DBDBDB;
+$color-grey-dark: #535154;
 
 body {
   font-family: sans-serif;
@@ -80,6 +81,41 @@ body {
     border: 1px solid $color-grey;
     border-radius: 5px;
   }
+}
+
+.single-calendar {
+  color: $color-grey-dark;
+  width: 270px;
+  height: 320px;
+
+  .calendar {
+    border: 1px solid $color-green;
+    border-radius: 10px;
+    padding: 15px 10px;
+  }
+
+  .monthname {
+    font-family: $font-header;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .weekdays {
+    color: lighten($color-grey-dark, 40%)
+  }
+
+  .dayname {
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .daynumber {
+    padding: 15px 8px 15px 8px;
+    text-align: center;
+  }
+
+
 }
 
 ._container {

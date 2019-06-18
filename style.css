@@ -64,6 +64,34 @@ body {
   border-radius: 5px;
 }
 
+.single-calendar {
+  color: #535154;
+  width: 270px;
+  height: 320px;
+}
+.single-calendar .calendar {
+  border: 1px solid #285B5F;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+.single-calendar .monthname {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.single-calendar .weekdays {
+  color: #b9b7ba;
+}
+.single-calendar .dayname {
+  font-weight: normal;
+  text-align: center;
+}
+.single-calendar .daynumber {
+  padding: 15px 8px 15px 8px;
+  text-align: center;
+}
+
 ._container {
   max-width: 960px;
   margin: 0 auto;
