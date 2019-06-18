@@ -1,6 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
 .header-region {
   background: #FEF0D5;
   padding: 5px 10px;
+  margin-bottom: 30px;
 }
 .header-region .layout {
   display: flex;
@@ -33,7 +38,6 @@
 
 .main-button {
   background: #D81E5D;
-  font-family: sans-serif;
   text-decoration: none;
   color: #FEF0D5;
   padding: 5px 11px;
@@ -48,6 +52,16 @@
 
 .social-networks {
   text-align: center;
+}
+
+.color-choice .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.color-choice .dropdown {
+  padding: 5px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
 }
 
 ._container {

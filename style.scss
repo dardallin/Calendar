@@ -3,10 +3,16 @@ $font-header: 'Roboto Condensed', sans-serif;
 $color-yellow: #FEF0D5;
 $color-green: #285B5F;
 $color-red: #D81E5D;
+$color-grey: #DBDBDB;
+
+body {
+  font-family: sans-serif;
+}
 
 .header-region {
   background: $color-yellow;
   padding: 5px 10px;
+  margin-bottom: 30px;
 
   .layout {
     display: flex;
@@ -44,7 +50,6 @@ $color-red: #D81E5D;
 
 .main-button {
   background: $color-red;
-  font-family: sans-serif;
   text-decoration: none;
   color: $color-yellow;
   padding: 5px 11px;
@@ -62,6 +67,19 @@ $color-red: #D81E5D;
 
 .social-networks {
   text-align: center;
+}
+
+.color-choice {
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .dropdown {
+    padding: 5px;
+    border: 1px solid $color-grey;
+    border-radius: 5px;
+  }
 }
 
 ._container {
