@@ -101,6 +101,28 @@ body {
     font-size: 30px;
   }
 
+  .deletecalendar {
+    margin-right: 10px;
+  }
+  .addcalendar {
+    margin-left: 10px;
+  }
+
+  .calendarcontrol {
+    visibility: hidden;
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-red;
+    }
+  }
+
+  &:hover .calendarcontrol {
+    visibility: visible;
+  }
+
   .weekdays {
     color: lighten($color-grey-dark, 40%)
   }
@@ -109,7 +131,6 @@ body {
     font-weight: normal;
     text-align: center;
   }
-
 
   .daynumber {
     padding: 15px 5px 15px 5px;
@@ -125,7 +146,6 @@ body {
   .dayname:last-child {
     color:$color-red
   }
-
 
 }
 

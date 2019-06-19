@@ -80,6 +80,24 @@ body {
   text-align: center;
   font-size: 30px;
 }
+.single-calendar .deletecalendar {
+  margin-right: 10px;
+}
+.single-calendar .addcalendar {
+  margin-left: 10px;
+}
+.single-calendar .calendarcontrol {
+  visibility: hidden;
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.single-calendar .calendarcontrol:hover {
+  color: #D81E5D;
+}
+.single-calendar:hover .calendarcontrol {
+  visibility: visible;
+}
 .single-calendar .weekdays {
   color: #b9b7ba;
 }
