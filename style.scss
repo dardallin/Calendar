@@ -6,6 +6,8 @@ $color-red: #D81E5D;
 $color-grey: #DBDBDB;
 $color-grey-dark: #535154;
 
+$calendar-gap: 50px;
+
 body {
   font-family: sans-serif;
 }
@@ -13,6 +15,8 @@ body {
 .header-region {
   background: $color-yellow;
   padding: 5px 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 30px;
 
   .layout {
@@ -146,7 +150,24 @@ body {
   .dayname:last-child {
     color:$color-red
   }
+}
 
+.calendar-list {
+  padding: 0 10px;
+  .single-calendar {
+    margin-left: $calendar-gap;
+  }
+}
+
+.control-panel {
+  padding: 0 10px;
+}
+
+.calendar-list .layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -$calendar-gap;
 }
 
 ._container {

@@ -5,6 +5,8 @@ body {
 .header-region {
   background: #FEF0D5;
   padding: 5px 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-bottom: 30px;
 }
 .header-region .layout {
@@ -116,6 +118,24 @@ body {
 .single-calendar .daynumber:last-child,
 .single-calendar .dayname:last-child {
   color: #D81E5D;
+}
+
+.calendar-list {
+  padding: 0 10px;
+}
+.calendar-list .single-calendar {
+  margin-left: 50px;
+}
+
+.control-panel {
+  padding: 0 10px;
+}
+
+.calendar-list .layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -50px;
 }
 
 ._container {
