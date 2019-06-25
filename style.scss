@@ -8,11 +8,18 @@ $color-grey-dark: #535154;
 
 $calendar-gap: 50px;
 
+$breakpoint450: 450px;
+
+@mixin big-component-style {
+  padding: 0 10px;
+}
+
 body {
   font-family: sans-serif;
 }
 
 .header-region {
+  @include big-component-style();
   background: $color-yellow;
   padding: 5px 10px;
   padding-bottom: 10px;
@@ -22,13 +29,23 @@ body {
   .layout {
     display: flex;
     align-items: center;
+    @media (max-width: $breakpoint450) {
+      flex-wrap: wrap;
+      text-align: center;
+    }
   }
 
   .site-name {
     margin: 11px 0 0 20px;
+    @media (max-width: $breakpoint450) {
+      margin-left: 0;
+    }
   }
   .share-calendar {
     margin-left: auto;
+    @media (max-width: $breakpoint450) {
+      margin: 0 auto;
+    }
   }
 
   .social-networks {
@@ -64,10 +81,15 @@ body {
 }
 
 .site-logo {
-
  .image {
    width: 99px;
+   @media (max-width: $breakpoint450) {
+     width: 60px;
+   }
  }
+  @media (max-width: $breakpoint450) {
+    margin: 0 auto;
+  }
 }
 
 .social-networks {
@@ -153,14 +175,14 @@ body {
 }
 
 .calendar-list {
-  padding: 0 10px;
+  @include big-component-style();
   .single-calendar {
     margin-left: $calendar-gap;
   }
 }
 
 .control-panel {
-  padding: 0 10px;
+  @include big-component-style();
 }
 
 .calendar-list .layout {
@@ -168,6 +190,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-left: -$calendar-gap;
+}
+
+.register-region {
+  margin: 50px 0;
+  padding: 50px 0;
+  background: black url("img/big_bg.jpg") center no-repeat;
+  background-size: cover;
+
 }
 
 ._container {
