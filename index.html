@@ -303,11 +303,10 @@
     <div class="_container">
         <div class="layout">
             <form class="form-normal" action="form-submit.php" method="get">
-
                 <input type="text" name="name" id="name" placeholder="Имя">
-                <input type="email" name="email" id="email" placeholder="email">
+                <input type="email" name="email" id="email" placeholder="email" required>
                 <input type="password" name="Пароль" id="password" placeholder="password">
-
+                
                 <select name="age" class="age">
                         <option value="0">- Возраст -</option>
                         <option value="10">1-10</option>
@@ -317,8 +316,11 @@
 
                 <label class="checkbox"><input type="checkbox" name="subscribe" id="checkbox"> Подписаться</label>
 
-                <input class="submit" type="submit" value="Зарегистрироваться">
+                <label><input type="radio" name="color" value="red" checked> Красный</label>
+                <label><input type="radio" name="color" value="white"> Белый</label>
+                <label><input type="radio" name="color" value="blue"> Синий</label>
 
+                <input class="submit" type="submit" value="Зарегистрироваться">
             </form>
         </div>
     </div>
