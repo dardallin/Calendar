@@ -172,6 +172,10 @@ body {
   background-size: cover;
 }
 
+.form-normal .checkbox {
+  cursor: pointer;
+}
+
 ._container {
   max-width: 960px;
   margin: 0 auto;
