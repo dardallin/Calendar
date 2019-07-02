@@ -78,6 +78,14 @@ body {
   border-radius: 13px;
   font-size: 14px;
   font-weight: bold;
+  border: 0;
+  cursor: pointer;
+
+  &.-big {
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 20px;
+  }
 }
 
 .site-logo {
@@ -200,17 +208,27 @@ body {
 }
 
 .form-normal {
-  .input {
+  .input, .select {
     display: block;
-    width: 200px;
-    height: 20px;
+    width: 220px;
+    height: 33px;
     margin: 12px auto;
     border: 1px solid $color-grey-dark;
     padding: 5px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
   }
+
+  .checkbox, .radio {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    color: white;
+  }
+
   .checkbox {
     cursor: pointer;
+    margin-bottom: 10px;
   }
 }
 
