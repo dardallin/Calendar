@@ -80,6 +80,13 @@ body {
   font-weight: bold;
   border: 0;
   cursor: pointer;
+  transition: 2s;
+
+  &:hover {
+    background: lighten($color-red, 20%);
+    color: $color-grey-dark;
+    transition: 2s;
+  }
 
   &.-big {
     font-size: 20px;
@@ -90,7 +97,6 @@ body {
 
 .site-logo {
  .image {
-   width: 99px;
    @media (max-width: $breakpoint450) {
      width: 60px;
    }
@@ -229,6 +235,12 @@ body {
   .checkbox {
     cursor: pointer;
     margin-bottom: 10px;
+  }
+
+  .submit {
+    display: block;
+    margin: 0 AUTO;
+    margin-top: 30px;
   }
 }
 

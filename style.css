@@ -65,6 +65,12 @@ body {
   font-weight: bold;
   border: 0;
   cursor: pointer;
+  transition: 2s;
+}
+.main-button:hover {
+  background: #eb719a;
+  color: #535154;
+  transition: 2s;
 }
 .main-button.-big {
   font-size: 20px;
@@ -72,9 +78,6 @@ body {
   border-radius: 20px;
 }
 
-.site-logo .image {
-  width: 99px;
-}
 @media (max-width: 450px) {
   .site-logo .image {
     width: 60px;
@@ -198,6 +201,11 @@ body {
 .form-normal .checkbox {
   cursor: pointer;
   margin-bottom: 10px;
+}
+.form-normal .submit {
+  display: block;
+  margin: 0 AUTO;
+  margin-top: 30px;
 }
 
 ._container {
