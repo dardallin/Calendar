@@ -181,6 +181,15 @@ body {
   background: black url("img/big_bg.jpg") center no-repeat;
   background-size: cover;
 }
+.register-region .form-normal {
+  opacity: 0;
+  transition: 2s;
+}
+.register-region:hover .form-normal {
+  animation: showform 1s;
+  opacity: 1;
+  transition: 2s;
+}
 
 .form-normal .input, .form-normal .select {
   display: block;
@@ -204,10 +213,18 @@ body {
 }
 .form-normal .submit {
   display: block;
-  margin: 0 AUTO;
+  margin: 0 auto;
   margin-top: 30px;
 }
 
+@keyframes showform {
+  0% {
+    margin-left: -2000px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
 ._container {
   max-width: 960px;
   margin: 0 auto;
