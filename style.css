@@ -38,6 +38,7 @@ body {
 }
 .header-region .social-networks {
   margin-top: 15px;
+  min-height: 18px;
 }
 
 .site-name {
